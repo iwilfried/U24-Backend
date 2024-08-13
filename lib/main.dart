@@ -15,10 +15,11 @@ Future<void> main() async {
   /// This setup connects your app to Firebase services, allowing you to use Firestore, Authentication, etc.
   await Firebase.initializeApp(
     options: const FirebaseOptions(
-      apiKey: "AIzaSyCT9koLeUS4sBYYLW0VRKUrmVx3t1UL--4",
-      appId: "1:940680704783:web:816f9a0540ad2276f2447a",
-      messagingSenderId: "940680704783",
-      projectId: "u24flash-d1360",
+      /// Testing project creds, to be revoked
+      apiKey: "API_KEY",
+      appId: "APP_ID",
+      messagingSenderId: "MSG_SENDING_ID",
+      projectId: "PROJECT_ID",
     ),
   );
 
