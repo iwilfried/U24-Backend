@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "site": "u24flash-admin-panel",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
